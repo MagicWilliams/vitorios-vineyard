@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import VittorioHeading from '@/components/VittorioHeading';
 
 export default function Home() {
   return (
@@ -34,13 +35,9 @@ export default function Home() {
             {/* Left Column */}
             <div className="grid md:h-full h-min-content grid-rows-2 gap-8 p-8 md:p-12">
               {/* Top Text */}
-
-              <h1 className="text-[12vw] font-bold text-[#FFEFCF] md:text-[8vw] leading-[85%]">
-                Vitorio <span className="relative left-16">Vineyard</span>
-              </h1>
-              <h4 className="text-[1.15vw] font-normal leading-tight text-[#FFEFCF] md:text-[1.5vw] relative top-6 left-32 tracking-[110%]">
-                EST. 2020
-              </h4>
+              <div className="flex flex-col justify-start">
+                <VittorioHeading />
+              </div>
               <div className="flex flex-col justify-start">
                 <Image
                   src="/img/bottles.png"
@@ -147,13 +144,7 @@ export default function Home() {
             backgroundPosition: 'center',
           }}
         />
-        <h1 className="text-[16vw] font-bold text-[#FFEFCF] md:text-[8vw] leading-[85%] relative z-10">
-          Vitorio <br />
-          <span className="relative left-8">Vineyard</span>
-        </h1>
-        <h4 className="text-[4.15vw] font-normal leading-tight text-[#FFEFCF] md:text-[1.5vw] tracking-[100%] relative z-10 left-[15vw] top-[3vw]">
-          EST. 2020
-        </h4>
+        <VittorioHeading />
         <Image
           src="/img/bottles.png"
           alt="Wine bottles"
