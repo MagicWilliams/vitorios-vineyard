@@ -38,15 +38,6 @@ export default function Home() {
               <div className="flex flex-col justify-start">
                 <VittorioHeading />
               </div>
-              <div className="flex flex-col justify-start">
-                <Image
-                  src="/img/bottles.png"
-                  alt="Wine bottles"
-                  width={600}
-                  height={600}
-                  className="object-contain block md:hidden relative left-[-24px] z-40"
-                />
-              </div>
 
               {/* Bottom Text Container */}
               <div className="flex flex-col justify-start pt-12">
