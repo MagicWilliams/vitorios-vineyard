@@ -13,7 +13,6 @@ const ProductBox: React.FC<ProductBoxProps> = ({
   id,
   title,
   price,
-  imageUrl,
   onAddToCart,
 }) => {
   return (

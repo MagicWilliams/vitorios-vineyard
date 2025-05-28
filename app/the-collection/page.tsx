@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import VittorioHeading from '../../components/VittorioHeading';
 import ProductBox from '../../components/ProductBox';
-import Image from 'next/image'; // Import Image
 
 // Dummy product data
 const products = [

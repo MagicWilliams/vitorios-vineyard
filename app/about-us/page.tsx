@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import VittorioHeading from '@/components/VittorioHeading';
 
 const AboutUsPage = () => {
@@ -50,7 +49,7 @@ const AboutUsPage = () => {
                 magnetic energy that fuses hip hop, R&B, house, electronic,
                 neo-soul, and spoken word. With a deep appreciation for style,
                 taste, and timeless vibes, his work has always been about more
-                than performance—it's about presence.
+                than performance—it&apos;s about presence.
               </p>
               <p className="font-playfair text-lg text-[#FFEFCF]/90">
                 That same ethos led to the creation of his signature show, “Wine
