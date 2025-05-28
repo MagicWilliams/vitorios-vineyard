@@ -8,7 +8,7 @@ const VittorioHeading = () => {
       <div className="md:block mb-24">
         <Image
           src="/img/wordmark.svg"
-          className="w-auto h-48"
+          className="w-auto h-40 md:h-48"
           alt="Vitorio Vineyard"
           width={1000}
           height={1000}
