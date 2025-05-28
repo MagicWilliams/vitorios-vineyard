@@ -27,8 +27,8 @@ export default function Home() {
         />
       </div>
 
-      <div className="relative flex flex-col items-center min-h-screen p-4 z-10">
-        <div className="absolute top-0 left-0 w-full p-4">
+      <div className="relative flex flex-col items-center min-h-screen p-4 md:p-8 z-10">
+        <div className="absolute top-0 left-0 w-full p-4 md:p-8">
           <VittorioHeading />
         </div>
         <div className="w-full max-w-4xl h-full">

@@ -17,7 +17,7 @@ const AboutUsPage = () => {
         <div className="absolute inset-0 z-0 bg-black opacity-20" />{' '}
         {/* Overlay */}
         {/* Content Area */}
-        <div className="relative z-10 flex flex-1 flex-col p-8 md:p-12 text-[#FFEFCF]">
+        <div className="relative z-10 flex flex-1 flex-col p-4 md:p-8 text-[#FFEFCF]">
           <div className="w-full mx-auto">
             {' '}
             {/* Center heading */}
