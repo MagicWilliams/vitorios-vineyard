@@ -26,7 +26,7 @@ export default function NotFound() {
       <div className="absolute inset-0 z-0 bg-black opacity-20" />
 
       {/* Content Container */}
-      <div className="relative z-10 text-center">
+      <div className="relative z-10 h-screen text-center">
         <VittorioHeading />
         <h1 className="text-6xl md:text-8xl text-[#FFEFCF] mb-6 mt-8">404</h1>
         <h2 className="text-2xl md:text-4xl text-[#FFEFCF] mb-8">
