@@ -33,8 +33,8 @@ export default function NotFound() {
           Page Not Found
         </h2>
         <p className="text-lg md:text-xl text-[#FFEFCF] mb-12 max-w-md mx-auto">
-          The page you're looking for seems to have vanished like a fine wine's
-          bouquet.
+          The page you&apos;re looking for seems to have vanished like a fine
+          wine&apos;s bouquet.
         </p>
         <Link
           href="/"
