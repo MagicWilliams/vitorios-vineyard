@@ -84,11 +84,14 @@ export default function SignUpForm() {
       className="w-full md:w-1/2 flex flex-col gap-4 bg-[#663F47]/80 rounded-xl p-6 md:p-10 border border-[#FFEFCF]/30 shadow-lg backdrop-blur-sm"
     >
       <h1 className="text-2xl md:text-4xl font-playfair text-[#FFEFCF] text-center mb-2">
-        Join Heard It Through The Grapevine
+        Join Our Wine Club
       </h1>
-      <h2 className="text-xl md:text-2xl font-playfair text-[#FFEFCF] text-center mb-4 leading-tight">
-        Stay up to date with our latest news and events
+      <h2 className="text-xl md:text-2xl font-playfair text-[#FFEFCF] text-center mb-0 leading-tight">
+        &quot;Heard It Through The Grapevine&quot;
       </h2>
+      <p className="text-sm md:text-base w-[90%] mb-4 mx-auto text-[#FFEFCF]/70 text-center">
+        and stay up to date with our latest news and events
+      </p>
       <div className="flex flex-col gap-1">
         <input
           type="text"
