@@ -1,4 +1,5 @@
 import VittorioHeading from '@/components/VittorioHeading';
+import Image from 'next/image';
 
 const AboutUsPage = () => {
   return (
@@ -66,23 +67,13 @@ const AboutUsPage = () => {
 
             {/* Right Column: Image */}
             <div className="flex items-start justify-center w-full h-full order-1 md:order-2">
-              <div className="bg-gray-700 aspect-square w-full max-w-[400px] flex items-center justify-center">
-                {/* Basic placeholder representation */}
-                <svg
-                  className="w-1/2 h-1/2 text-gray-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
-                </svg>
-              </div>
+              <Image
+                src="/img/about.jpeg"
+                alt="About Us"
+                width={500}
+                height={500}
+                className="rounded-lg"
+              />
             </div>
           </div>
         </div>

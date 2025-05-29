@@ -6,7 +6,7 @@ const VittorioHeading = () => {
   return (
     <>
       {/* Desktop Heading */}
-      <div className="md:block mb-24">
+      <div className="md:block mb-12">
         <Link href="/">
           <Image
             src="/img/wordmark.svg"
